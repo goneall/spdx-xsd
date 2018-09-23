@@ -1,0 +1,72 @@
+<jxb:bindings 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+    version="2.1">
+
+    <jxb:bindings schemaLocation="../xml/xsd/spdx-doc.xsd">
+            <jxb:bindings node="//xs:complexType[@name='AlgorithmCodeType']">
+                <jxb:class name="AlgorithmCode"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='AnnotationType']">
+                <jxb:class name="Annotation"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='AnnotationTypeCodeType']">
+                <jxb:class name="AnnotationTypeCode"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='AnnotatorType']">
+                <jxb:class name="Annotator"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='ChecksumType']">
+                <jxb:class name="Checksum"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='ChecksumValueType']">
+                <jxb:class name="ChecksumValue"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='CommentType']">
+                <jxb:class name="Comment"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='CreatedType']">
+                <jxb:class name="Created"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='CreationInfoType']">
+                <jxb:class name="CreationInfo"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='CreatorType']">
+                <jxb:class name="Creator"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='DateType']">
+                <jxb:class name="Date"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='ExternalDocumentIDType']">
+                <jxb:class name="ExternalDocumentID"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='ExternalDocumentRefType']">
+                <jxb:class name="ExternalDocumentRef"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='LicenseIDType']">
+                <jxb:class name="LicenseID"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='LicenseListVersionType']">
+                <jxb:class name="LicenseListVersion"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='NameType']">
+                <jxb:class name="Name"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='RelationshipType']">
+                <jxb:class name="Relationship"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='RelationshipTypeCodeType']">
+                <jxb:class name="RelationshipTypeCode"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='SpdxDocumentType']">
+                <jxb:class name="SpdxDocument"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='SpdxElementType']">
+                <jxb:class name="SpdxElement"/>
+            </jxb:bindings>
+			<jxb:bindings node="//xs:complexType[@name='SpecVersionType']">
+                <jxb:class name="SpecVersion"/>
+            </jxb:bindings>
+    </jxb:bindings>
+
+</jxb:bindings>
